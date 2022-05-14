@@ -1,0 +1,46 @@
+******************
+Datasets with URLs
+******************
+
+IMDb data files
+https://datasets.imdbws.com/
+
+Bollywood data files
+https://www.kaggle.com/alokdas527/bollywood-movies-analysis
+
+
+
+
+**************************************
+Interesting entities and/or attributes
+**************************************
+
+From IMDb dataset:
+isAdult
+runtimeMinutes
+genres
+averageRating
+
+From kaggle (bollywood) dataset:
+Height
+Genre
+Highest Grosser
+
+
+
+*************************************************
+Insights we hope to gain from two chosen datasets
+*************************************************
+
+We are curious if there are patterns to be found between Hollywood and its (culturally distinct) cousin Bollywood. Is
+there a trend in the types of genres released that is the same or different between the two? Does one output
+significantly more movies? Surprising similarities or marked disparities could provide insight to the culture
+surrounding the movie industry.
+
+
+
+Impossible Joins:
+Join was not possible due to incompatible data types INT and STRING.
+To make the initial construction of the tables, we had to explicitly type some variables as strings 
+that would normally be integers. Therefore, to make the join possible, these changed variables - namely startYear 
+in the hollywood dataset - must be correctly typed as an integer.
